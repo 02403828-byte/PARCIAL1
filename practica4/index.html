@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Formularios - Daniela Leyva - 633</title>
+</head>
+<body>
+
+	<h2>Formularios</h2>
+	<h3>Por:   Daniela Leyva -  633</h3>
+
+<p>Los formularios son campos que permiten la entrada de datos, con el objetivo de que la pagina pueda interactuar con el usuario.</p>
+<p>Los mas solicitados son: nombres, fechas de nacimiento, telefonos, correos, ciudades, dinero, etc.
+</p>
+<hr>
+<h3>Este es un ejmplo de un formulario:</h3>
+
+<form>
+	<label>Nombre:</label>
+<input type="text" name="Nombre" maxlength="150" size="50" placeholder="Nombre Completo:"required >
+
+<br>
+
+<label>Correo Electronico:</label>
+
+<input type="email" name="correo" placeholder="Ingresa Correo"required>
+
+<br>
+<label>Contraseña</label>
+<input type="password" name="pass" placeholder="Minimo 8 caracteres" minlength="8" required> 
+
+<br>
+<label>Fecha De Nacimiento</label>
+<input type="date" name="fecha" required>
+<br>
+
+
+<label>Nacionalidad:</label>
+<select>
+	<option selected disabled> Selecciona un país</option>
+	<option>Mexico</option>
+	<option>Canada</option>
+	<option>USA</option>
+	<option>España</option>
+	<option>Alemania</option>
+	<option>Francia</option>
+	<option>Venezuela</option>
+	<option>Colombia</option>
+	<option>Japon</option>
+	<option>Corea</option>
+</select>
+
+<br>
+
+<label>Elige tus pasatiempos</label> <br>
+
+<input type="checkbox" name="hobbie"> leer <br>
+<input type="checkbox" name="hobbie"> escuchar musica <br>
+<input type="checkbox" name="hobbie"> ver peliculas <br>
+<input type="checkbox" name="hobbie"> deportes <br>
+<input type="checkbox" name="hobbie"> jugar videojuegos <br>
+<input type="checkbox" name="hobbie"> dibujar <br>
+
+<br>
+<label>Selecciona sexo:</label>
+
+Hombre <input type="radio" name="genero">
+Mujer <input type="radio" name="genero">
+Prefiero no decirlo <input type="radio" name="genero">
+
+<br>
+<label>Deja tu mensaje:</label>
+<textarea placeholder="Deja tu mensaje"></textarea>
+
+<br>
+
+<input type="submit" name="boton" value="Contactar a Leyva">
+
+<input type="reset" name="borrar" value="limpiar">
+
+<a href="../index.html">Volver al inicio</a>
+
+
+
+
+
+</form>
+
+
+
+</body>
+</html>
